@@ -1,0 +1,291 @@
+*{margin: 0%;
+padding: 0%;
+list-style: none;
+box-sizing: border-box;}
+header{
+    width: 100%;
+    padding: 20px 50px;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+header ul
+{display: flex;
+
+
+}
+header ul li{
+    margin: 35px;
+    color: #fff;
+}
+header h2{ color: #fff;
+font-family:
+ url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+}
+header ul li a{color: #fff; 
+padding: 4px 10px;}
+header ul li a:hover{background-color: lightgray;
+color: black;}
+.banner{
+width: 100%;
+height: 80vh;
+background-image:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,28,9,0.3830707282913166) 35%, rgba(0,212,255,1) 100%), url(photo-1494976388531-d1058494cdd8.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.banner h2{
+    margin-top: 70px;
+    color: #c21919;
+    text-transform: uppercase;
+    font-size: 6em;
+    letter-spacing: 20px;
+    font-family: url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); ;
+    font-weight: 500;
+}
+.about{
+    width: 100%;
+    padding: 70pxpx;
+    background-image:linear-gradient(90deg, rgba(2,7,60,0.8911939775910365) 0%, rgba(9,26,121,0.6250875350140056) 0%, rgba(36,35,0,0.6502976190476191) 38%, rgba(0,212,255,1) 100%) , url(hd-country-life-at-night-vvxmbqzkr4uumuni.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+.about .aboutcontent{
+    width: 45%;
+
+}
+.about .aboutcontent h2{
+color: #fff;
+font-size: 2em;
+font-weight: 500;
+text-transform: uppercase;
+}
+.about .aboutcontent p{color: #eee;
+    margin-top: 20px;
+}
+.about .aboutimg{
+    width: 50%;
+    /* height: 300px; */
+    /* border: 1px solid #fff; */
+}
+.about .aboutimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ourteam{
+width: 100%;
+padding: 70px;
+background-color: black;
+text-transform: uppercase;
+
+}
+.ourteam .title{
+    text-align: center;
+}
+.ourteam .title h2{
+color: #fff;
+font-size: 2.5em;
+font-weight: 500;
+text-transform: capitalize;
+font-family: url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); ;
+letter-spacing: 5px;
+
+
+
+}
+.ourteam .title p{
+    color: #eee;
+}
+.ourteam .ourtrainers{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+}
+.ourteam .ourtrainers .trainercard{
+width: 270px;
+height: 450px;
+border: 1px solid #fff;
+
+}
+.ourteam .ourtrainers .trainercard img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.ourteam .ourtrainers .trainercard img:hover{
+
+    transform: scale(1.1);
+}
+.testimonials{
+width: 100%;
+padding: 50px;
+background-color: black;
+
+}
+.testimonials h2{
+color: #fff;
+text-align: center;
+text-transform: uppercase;
+font-size: 2.3em;
+
+}
+.testimonials .feedback{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.testimonials .feedback .feedbackcard{
+
+    width: 350px;
+    padding: 20px;
+    border: 1px solid #503f3f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition-duration: 0.4;
+
+}
+.testimonials .feedback .feedbackcard img{
+width: 60px;
+height: 60px;
+border-radius: 50px;
+
+
+
+}
+.testimonials .feedback .feedbackcard p {
+color: #fff;
+text-align: center;
+margin-top: 15px opx;
+font-style: italic;
+
+}
+.testimonials .feedback .feedbackcard h2{
+font-size: 1.4em;
+
+
+}
+.testimonials .feedback .feedbackcard:hover{
+transform: scale(1.1);
+
+
+}
+.contact{
+
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+background-size: cover;
+background-repeat: no-repeat;
+    background:linear-gradient(90deg, rgba(2,7,60,0.8911939775910365) 0%, rgba(9,26,121,0.6250875350140056) 0%, rgba(36,35,0,0.6502976190476191) 38%, rgba(0,212,255,1) 100%) , url(beautiful-mountain-range-reflects-tranquil-water-generative-ai_188544-9117.avif)
+}
+.contact h2{
+    text-align: center;
+    font-size: 2em;
+    color: #eee;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgb(218, 29, 29) 0 0 10px  0 0 10px brown rgb(206, 4, 4);
+
+
+}
+.contact .contactform{
+    margin: 50px auto;
+    width: 55%;
+    padding: 30px;
+    border: 1px solid #fff;
+
+}
+.contact .contactform input{
+border: none;
+outline: none;
+background-color: black;
+padding: 12px;
+width: 100%;
+color: #fff;
+
+
+
+}
+.contact .contactform input[type="number"]
+.contact .contactform input[type="email"]
+{
+width: 50%;
+width: 49.5;
+
+
+
+}
+.contact .contactform input::placeholder
+{
+color: yellowgreen;
+
+}
+.contact .contactform textarea{
+    width: 100%;
+    height: 200px;
+    background-color: #222;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 12px;
+text-transform: uppercase;
+
+
+
+}
+
+.contact .contactform textarea::placeholder{
+color: yellowgreen;
+font-size: 30px;
+}
+.contact .contactform button{
+    padding: 10px 30px;
+    background-color: #222;
+    border: 1px solid yellowgreen;
+    color: yellowgreen;
+    text-transform: uppercase;
+    margin-top: 10px;
+    transition-duration: 0.4s;
+}
+.contact .contactform button:hover{
+    background-color: yellowgreen;
+    color: #222;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
